@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #fff;
+  background-color: #122478;
+  font-family: lato, sans-serif;
+  margin-top: 40px;
+}
+h1{
+  color:#ff991d;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.task-app{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+}
+.task-list{
+  width: 600px;
+  min-height: 500px;
+  background-color:#435689;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
